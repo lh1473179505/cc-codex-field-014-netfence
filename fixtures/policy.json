@@ -1,0 +1,18 @@
+{
+  "allow_cidrs": [
+    "10.0.0.0/8",
+    "192.168.10.0/24",
+    "fd12:3456:789a::/48"
+  ],
+  "deny_cidrs": [
+    "10.255.0.0/16"
+  ],
+  "allow_loopback": false,
+  "allow_link_local": false,
+  "allow_multicast": false,
+  "allow_unspecified": false,
+  "allow_documentation": false,
+  "allow_broadcast": false,
+  "allow_zone_id": false,
+  "allow_port_suffix": false
+}
